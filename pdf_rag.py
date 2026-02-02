@@ -530,7 +530,7 @@ import time
 
 # Set your ngrok authtoken (get from https://dashboard.ngrok.com/get-started/your-authtoken)
 # Example: NGROK_AUTH_TOKEN = "2xxxxxxxxxxxxxxxxxxxxxxxxxxx"
-NGROK_AUTH_TOKEN = "393oAQQNXibgM6GW2Rs2nwXQ7AE_C57sBxscz7aFdGEs5TeG"  # Replace with your actual token
+NGROK_AUTH_TOKEN = "393###"  # Replace with your actual token
 
 if NGROK_AUTH_TOKEN != "your_ngrok_token_here":
     ngrok.set_auth_token(NGROK_AUTH_TOKEN)
